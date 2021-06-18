@@ -1,0 +1,74 @@
+<!--Contact Page-->
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <title>MCS: Contact</title>
+    <!--Connects to the Google Fonts API-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@300&family=Playfair+Display&family=Red+Hat+Display:wght@700&family=Source+Serif+Pro&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!--Metadata-->
+    <meta name="description" content="The official site of the Melbourne Club of Stylophiles">
+    <meta name="keywords" content="club, stylophiles, melbourne, pens, pencils, paper, books, notebooks">
+    <meta name="robots" content="index, follow">
+    <meta name="copyright" content="2021 Melbourne Club of Stylophiles">
+    <meta name="language" content="EN">
+    <meta name="author" content="Josh Chuah">
+    <meta name="creationdate" content="2021">
+    <meta name="distribution" content="local">
+    <meta name="rating" content="general">
+</head>
+
+<body>
+    <header>
+        <img src="./images/favicon.jpg">
+        <nav>
+            <ul>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="wiki.html">Wiki and Buying Guide</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1 id="header2">Contact Us</h1>
+
+    <p class="contacttext">Have any questions? Have anything to say? Let us know here!</p>
+
+    <form>
+        <ul class="form-style-1">
+            <li><label>Full Name <span class="required">*</span></label><input type="text" name="field1"
+                    class="field-divided" placeholder="First" /> <input type="text" name="field2" class="field-divided"
+                    placeholder="Last" /></li>
+            <li>
+                <label>Email <span class="required">*</span></label>
+                <input type="email" name="field3" class="field-long" />
+            </li>
+            <li>
+                <label>Subject</label>
+                <select name="field4" class="field-select">
+                    <option value="Advertise">Membership</option>
+                    <option value="Partnership">Question</option>
+                    <option value="General Question">General</option>
+                </select>
+            </li>
+            <li>
+                <label>Your Message <span class="required">*</span></label>
+                <textarea name="field5" id="field5" class="field-long field-textarea"></textarea>
+            </li>
+            <li>
+                <input type="submit" value="Submit" />
+            </li>
+        </ul>
+    </form>
+
+</body>
+
+</html>
