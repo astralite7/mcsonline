@@ -405,3 +405,21 @@ select {
 }
 
 /*/ End fade in animation /*/
+
+/*/ Custom Scrollbar /*/
+::-webkit-scrollbar {
+    width: 13px;
+    height: 13px;
+   }
+   ::-webkit-scrollbar-thumb {
+    background: linear-gradient(13deg, 6b5b95 14%,#00aec5 64%);
+    border-radius: 10px;
+   }
+   ::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(13deg, #00aec5 14%,6b5b95 64%);
+   }
+   ::-webkit-scrollbar-track{
+    background: #f0eee9;
+    border-radius: 10px;
+   }
+/*/ End custom scrollbar /*/
